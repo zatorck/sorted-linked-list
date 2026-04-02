@@ -1,0 +1,11 @@
+includes:
+    - vendor/shipmonk/phpstan-rules/rules.neon
+
+parameters:
+    level: max
+    paths:
+        - src
+        - tests
+    parallel:
+        maximumNumberOfProcesses: 1
+    tmpDir: var/phpstan
