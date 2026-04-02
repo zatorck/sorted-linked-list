@@ -13,12 +13,6 @@ Each list keeps its elements sorted automatically during insertion and does not 
 
 - PHP `^8.5`
 
-## Installation
-
-```bash
-composer install
-```
-
 ## Quick Start
 
 ```php
